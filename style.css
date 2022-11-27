@@ -233,6 +233,12 @@ img {
 .item-flex .item-img {
   width: 50%;
 }
+.item-flex .item-img img {
+  aspect-ratio: 1/1;
+  min-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .item-flex .item-text {
   width: 42%;
 }
