@@ -235,7 +235,7 @@ img {
 }
 .item-flex .item-img img {
   aspect-ratio: 1/1;
-  min-height: 400px;
+  max-height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
